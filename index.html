@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filterable Image Gallery using HTML,CSS,Bootstrap and Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+        <!--filter buttons-->
+        <div class="filter_buttons">
+            <button class="active" data-name="all">Show all</button>
+            <button data-name="phones">Phones</button>
+            <button data-name="clothes">Clothes</button>   
+            <button data-name="shoes">Shoes</button>
+            </div>
+
+        <!--image Cards-->    
+
+        <div class="filterable_cards">
+
+            <div class="card" data-name="phones">
+
+            <img src="phone-1.jpg" alt="phone"/>
+
+            <div class="card_body">
+                <h6 class="card_title">Xiaomi</h6>
+                <p class="crad_text">MIUI: Most Xiaomi phones run on MIUI, the company's custom Android-based operating system.<br>
+                     MIUI offers a unique user experience with customizable themes, advanced customization options, and regular updates.</p>
+               </div>
+             </div>
+
+             <div class="card" data-name="phones">
+
+                <img src="phone-2.jpg" alt="phone"/>
+    
+                <div class="card_body">
+                    <h6 class="card_title">Apple</h6>
+                    <p class="crad_text">
+
+                        iOS features a clean and intuitive user interface characterized by its sleek design, fluid animations, and consistent visual elements.<br>
+                        It employs a grid of app icons on the home screen and a dock for quick access to frequently used apps.<br>
+                        iOS seamlessly integrates with other Apple devices and services through features like AirDrop, Handoff, iCloud, iMessage, and Continuity. This allows for a consistent user experience across devices.  
+                    </p>
+                   </div>
+                 </div>
+
+                 <div class="card" data-name="clothes">
+
+                    <img src="cloth-1.jpg" alt="cloth"/>
+        
+                    <div class="card_body">
+                        <h6 class="card_title">cloth</h6>
+                        <p class="crad_text">cloth paragraph</p>
+                       </div>
+                     </div>
+
+                     <div class="card" data-name="clothes">
+
+                        <img src="cloth-2.jpg" alt="cloth"/>
+            
+                        <div class="card_body">
+                            <h6 class="card_title">cloth</h6>
+                            <p class="crad_text">cloth paragraph</p>
+                           </div>
+                         </div>
+            
+
+                         <div class="card" data-name="clothes">
+
+                            <img src="cloth-3.jpg" alt="cloth"/>
+                
+                            <div class="card_body">
+                                <h6 class="card_title">cloth</h6>
+                                <p class="crad_text">cloth paragraph</p>
+                               </div>
+                             </div>
+                
+
+                             <div class="card" data-name="shoes">
+
+                                <img src="shoe-1.jpg" alt="shoe"/>
+                    
+                                <div class="card_body">
+                                    <h6 class="card_title">Shoe</h6>
+                                    <p class="crad_text">Shoe paragraph</p>
+                                   </div>
+                                 </div>
+                    
+                                 <div class="card" data-name="shoes">
+
+                                    <img src="shoe-2.jpg" alt="shoe"/>
+                        
+                                    <div class="card_body">
+                                        <h6 class="card_title">Shoe</h6>
+                                        <p class="crad_text">Shoe paragraph</p>
+                                       </div>
+                                     </div>
+                        
+          </div>
+        </div>
+    </body>
+</html>
